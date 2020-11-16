@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+}
+.container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: goldenrod;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#ways-to-play {
+    width: 80%;
+    height: 80vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgreen;
+    color: white; 
+    text-align: center;
+}
+
+ h3 {
+    padding-top: 20%;
+    font-size: 2em;
+    font-size: bold; 
+}
+
+#ways-to-play .player-button{
+    width: 20%;
+    height: 7%;
+    background-color: gray;
+    font-size: 16px;
+    border: 1px solid white;
+    margin-top: 30%;
+    margin-right: 2%;
+    margin-left: 3%;
+
+}
+
+/* Player type div styling */
+
+#players {
+    width: 80%;
+    height: 80vh;
+    background-color: darkgreen;
+    color: white; 
+    text-align: center;
+    display: none;
+    margin: 10% auto;
+}
+
+.player-type {
+    width: 10%;
+    height: 10%;
+    font-size: 30px;
+    margin: 15% 2% 15% 3%;
+    background-color: darkgreen;
+}
+
+#back{
+    width: 15%;
+    padding-top: 10px 0;
+    background-color: gray;
+    font-size: 16px;
+}
+
+/* grid layout */
+
+#grid-layout {
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    color: white; 
+    text-align: center;
+    display: none;
+    margin: 10% auto;
+}
+
+#score {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    height: auto;
+    background-color: darkgreen;
+    border-bottom: 2px solid white;
+}
+
+#score  p{
+    padding: 10px 0;
+}
+
+#three-grid-layout {
+    display: grid;
+    grid-template-columns: 33% 33% 33.2%;
+    grid-template-rows: 174px 174px 174px;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+
+.three-grid-layout-item{
+    background-color: darkgreen;
+    box-shadow: 2px 2px 5px;
+}
+
+
