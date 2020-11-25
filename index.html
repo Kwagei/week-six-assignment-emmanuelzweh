@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="ways-to-play">
+            <h3>How do you want to play?</h3>
+            <input type="button" value="One player" class="player-button" onclick="onePlayer()">
+            <input type="button" value="Two players" class="player-button" onclick="twoPlayer()">
+        </div>
+        <div id="players">
+            <h3>Would like to be X or O?</h3>
+            <input type="button" value="X" class="player-type" onclick="playerX()">
+            <input type="button" value="O" class="player-type" onclick="playerO()">
+            <div class="back-button-div">
+                <input type="button" value="Back" id="back" onclick="goBack()">
+            </div>
+        </div>
+        <div id="grid-layout">
+            <div id="score">
+               <p id="player1">Player1</p>
+               <p id="computer">Computer</p>
+            </div>
+            <div id="three-grid-layout">
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+                <div class="three-grid-layout-item"></div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
